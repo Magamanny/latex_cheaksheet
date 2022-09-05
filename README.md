@@ -75,3 +75,54 @@ Blow we include the 'smd_pkg_04' image in the document, with scaling of 0.3.
 \includegraphics[scale=0.3]{smd_pkg_04}
 \end{figure}
 ```
+## Bibliology and references
+Below is an exmple of 'refs.bib' file that has the refenece database.
+```latex
+@book{latex2e,
+  author = {Leslie Lamport},
+  year = {1994},
+  title = {{\LaTeX}: a Document Preparation System},
+  publisher = {Addison Wesley},
+  address = {Massachusetts},
+  edition = {2}
+}
+
+@article{knuth:1984,
+  title={Literate Programming},
+  author={Donald E. Knuth},
+  journal={The Computer Journal},
+  volume={27},
+  number={2},
+  pages={97--111},
+  year={1984},
+  publisher={Oxford University Press}
+}
+
+@inproceedings{lesk:1977,
+  title={Computer Typesetting of Technical Journals on {UNIX}},
+  author={Michael Lesk and Brian Kernighan},
+  booktitle={Proceedings of American Federation of
+             Information Processing Societies: 1977
+             National Computer Conference},
+  pages={879--888},
+  year={1977},
+  address={Dallas, Texas}
+}
+@manual{pb840:technical,
+	title={Puritan Bennett™ 800 Series Ventilator System Operator’s and Technical Reference Manual},
+	organization={Covidien},
+	?_author		= {},
+	?_address	= {},
+	?_edition	= {},
+	year		= {2011},
+	?_month		= {},
+	?_note		= {},
+}
+```
+We can site this references in our main latex document, using '\cite{}':
+```latex
+We need to site the book\cite{latex2e} so that it shows in the reference, otherwise it will not show.
+% referneces
+\bibliographystyle{plain} % We choose the "plain" reference style
+\bibliography{refs} % Entries are in the refs.bib file
+```
