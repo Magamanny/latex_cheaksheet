@@ -14,7 +14,12 @@ A template and common elements used in latex, for quick reference.
 The text in this section.
 \end{document}
 ```
-
+## Subscript and Superscript
+To use subscrit of superscript we need to change to math mode using '$'.
+```latex
+$V_T$ % subscript
+$V^s$ % superscript
+```
 ## Bold, italics and underlining
 
 ### Bold Text
