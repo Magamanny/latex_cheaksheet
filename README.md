@@ -51,7 +51,7 @@ The article document class in latex is organized in sections.(There are other cl
 | 3    | `\subsubsection{subsubsection}` |
 
 ## Unordered Lists
-
+Oder list are made useing the 'itemize' enviromnet.
 ```latex
 Lists are easy to create:
 \begin{itemize}
@@ -59,6 +59,15 @@ Lists are easy to create:
   \item Individual entries are indicated with a black dot, a so-called bullet.
   \item The text in the entries may be of any length.
 \end{itemize}
+```
+## Order Lists
+Oder list are made useing the 'enumerate' enviromnet.
+```latex
+\begin{enumerate}
+  \item List entries start with the \verb|\item| command.
+  \item Individual entries are indicated with a black dot, a so-called bullet.
+  \item The text in the entries may be of any length.
+\end{enumerate}
 ```
 ## Pictures and Figures
 To insert pictures we need to use the 'graphicx' package also we need to specify the image path. Inclue the package after the documentclass:
