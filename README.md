@@ -60,3 +60,18 @@ Lists are easy to create:
   \item The text in the entries may be of any length.
 \end{itemize}
 ```
+## Pictures and Figures
+To insert pictures we need to use the 'graphicx' package also we need to specify the image path. Inclue the package after the documentclass:
+```latex
+\documentclass{article} % create a document
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\title{Some Title}
+```
+Blow we include the 'smd_pkg_04' image in the document, with scaling of 0.3.
+```latex
+\begin{figure}[h]
+\caption{Picture of Analog Devices Gyroscopes that uses Kyocera vacuum-sealed package.}
+\includegraphics[scale=0.3]{smd_pkg_04}
+\end{figure}
+```
