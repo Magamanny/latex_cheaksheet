@@ -1,5 +1,5 @@
-# latex_cheaksheet
-A template and common elements used in latex, for quick reference.
+# LaTeX cheat sheet
+A template and common elements used in LaTeX, for quick reference. This is a LaTex cheat sheet or LaTex Templete.
 
 ## Template
 
