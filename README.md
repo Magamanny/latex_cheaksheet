@@ -140,3 +140,17 @@ We need to site the book\cite{latex2e} so that it shows in the reference, otherw
 \bibliographystyle{plain} % We choose the "plain" reference style
 \bibliography{refs} % Entries are in the refs.bib file
 ```
+## Table
+The table is created using the tabular enviroment.
+```latex
+\begin{center}
+\begin{tabular}{| c | c | c |}
+\hline
+ cell1 & cell2 & cell3 \\ 
+\hline
+ cell4 & cell5 & cell6 \\  
+ cell7 & cell8 & cell9  \\
+\hline  
+\end{tabular}
+\end{center}
+```
