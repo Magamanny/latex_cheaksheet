@@ -15,7 +15,7 @@ The text in this section.
 \end{document}
 ```
 ## Subscript and Superscript
-To use subscrit of superscript we need to change to math mode using '$'.
+To use subscript or superscript, we need to change to math mode using '$'.
 ```latex
 $V_T$ % subscript
 $V^s$ % superscript
