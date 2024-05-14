@@ -20,6 +20,30 @@ To use subscript or superscript, we need to change to math mode using '$'.
 $V_T$ % subscript
 $V^s$ % superscript
 ```
+## Math Mode
+Math mode can be used by different ways.
+For inline math mode.
+```latex
+$ y = (x+1)^2 $
+```
+For block math equations.
+```latex
+\begin{equation}
+ y = (x+1)^2
+\end{equation}
+% Or
+\[
+y=(x+1)^2
+\]
+```
+But for multiple equations the 'align' gives better result:
+```latex
+\begin{align}
+y&=(x+1)^2\notag\\
+ &=x^2+2x+1
+\end{align}
+```
+Use '\notag' to not print equation number.
 ## Bold, italics and underlining
 
 ### Bold Text
